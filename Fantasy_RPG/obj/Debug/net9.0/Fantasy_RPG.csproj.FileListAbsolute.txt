@@ -1,0 +1,15 @@
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\bin\Debug\net9.0\Fantasy_RPG.exe
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\bin\Debug\net9.0\Fantasy_RPG.deps.json
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\bin\Debug\net9.0\Fantasy_RPG.runtimeconfig.json
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\bin\Debug\net9.0\Fantasy_RPG.dll
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\bin\Debug\net9.0\Fantasy_RPG.pdb
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.AssemblyInfoInputs.cache
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.AssemblyInfo.cs
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.csproj.CoreCompileInputs.cache
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.sourcelink.json
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.dll
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\refint\Fantasy_RPG.dll
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.pdb
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\Fantasy_RPG.genruntimeconfig.cache
+C:\Users\salsa\OneDrive\Documents\GitHub\project-1-create-a-text-based-rpg-dragons-and-pinguins\Fantasy_RPG\obj\Debug\net9.0\ref\Fantasy_RPG.dll
