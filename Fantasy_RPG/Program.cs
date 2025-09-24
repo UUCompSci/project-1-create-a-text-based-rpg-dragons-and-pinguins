@@ -16,11 +16,6 @@ const ConsoleKey E = ConsoleKey.E;
 const ConsoleKey F = ConsoleKey.F;
 const ConsoleKey G = ConsoleKey.G;
 const ConsoleKey H = ConsoleKey.H;
-const ConsoleKey C = ConsoleKey.C;
-const ConsoleKey E = ConsoleKey.E;
-const ConsoleKey F = ConsoleKey.F;
-const ConsoleKey G = ConsoleKey.G;
-const ConsoleKey H = ConsoleKey.H;
 const ConsoleKey Esc = ConsoleKey.Escape;
 
 // Location varibles.
@@ -28,10 +23,6 @@ const int TOWER = 0;
 const int CITY = 1;
 const int CAVE = 2;
 const int COMBAT = 3;
-const int MAGIC_CORE = 4;
-const int MENTOR = 5;
-const int ENDING1 = 6;
-const int ENDING2 = 7;
 const int MAGIC_CORE = 4;
 const int MENTOR = 5;
 const int ENDING1 = 6;
@@ -128,47 +119,66 @@ while (!exit)
 
         case CITY:
             CityMap();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         case CAVE:
             CaveMap();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         case MAGIC_CORE:
             MagicCoreMap();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         case MENTOR:
             MentorMap();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         case COMBAT:
             CombatScene();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         case ENDING1:
             DestroyShard();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         case ENDING2:
             ExtractShard();
+<<<<<<< HEAD
             SeeIfDead();
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
             break;
 
         default:
-            WriteLine("HP has hit 0. You have died.");
             WriteLine("HP has hit 0. You have died.");
             exit = true;
             break;
 
     }
-    // Opening scene.
     // Opening scene.
     void TowerMap()
     {
@@ -207,14 +217,20 @@ while (!exit)
         switch (GetKey())
         {
             case C:
+<<<<<<< HEAD
                 WriteLine("Suddenly, a monster jumps out from the shadows and attacks you. Press any key to prepare for combat.");
                 ReadKey(true);
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
                 currentLocation = COMBAT;
                 break;
 
             case D:
+<<<<<<< HEAD
                 WriteLine("Suddenly, a monster jumps out from the shadows and attacks you. Press any key to prepare for combat.");
                 ReadKey(true);
+=======
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
                 currentLocation = COMBAT;
                 break;
 
@@ -271,19 +287,29 @@ while (!exit)
         WriteLine("Suddenly, a monster jumps out from the shadows and attacks you. Press any key to prepare for combat.");
         ReadKey(true);
 
+<<<<<<< HEAD
         currentLocation = COMBAT;
+=======
+    currentLocation = COMBAT;
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
     }
 
     void MentorMap()
     {
         WriteLine("You rush back to warn your mentor of the situation. He insists on accompanying you to the magic core.");
         WriteLine("The two of you reach the core and notice a corrupted shard wedged deep within the core.");
+<<<<<<< HEAD
         WriteLine("Suddenly, a monster jumps out from the shadows and attacks your mentor. You jump in to help defend him. Press any key to prepare for combat.");
+=======
+        WriteLine("You jump in to help defend him.");
+        WriteLine("Suddenly, a monster jumps out from the shadows and attacks you. Press any key to prepare for combat.");
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
         ReadKey(true);
 
         currentLocation = COMBAT;
     }
 
+<<<<<<< HEAD
     // The combat mechanic and you select an ending if you win.
     void CombatScene()
     {
@@ -361,6 +387,12 @@ while (!exit)
         }
 
         WriteLine($"Finally, the monster drops to the ground, dead. Now you think of how to deal with the corrupted shard.");
+=======
+    void CombatScene()
+    {
+        // combat code above write lines
+        WriteLine("Finally, the monster drops dead. Now you think of how to deal with the corrupted shard.");
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
         WriteLine("Initially, you think of directly destorying the shard to quickly remove the corruption, but part of you wonders if it had been purposely planted. If you can manage to extract it in one piece the elders might be able to find out its orgin.");
         WriteLine($"Press '{G}' destroy the shard directly, '{H}' to try and extract the shard, or '{B}' to open your inventory.");
         switch (GetKey())
@@ -372,6 +404,7 @@ while (!exit)
             case H:
                 currentLocation = ENDING2;
                 break;
+<<<<<<< HEAD
 
             case B:
                 if (Inventory[0] == "")
@@ -396,6 +429,11 @@ while (!exit)
         }
     }
 
+=======
+        }
+    }
+    
+>>>>>>> 7e61b2224daba7be02a00a678622fcbc2d6149f1
     void DestroyShard()
     {
         WriteLine("You destroy the shard using the magic your mentor taught you. The core glows brighter and the city stabalizes.");
