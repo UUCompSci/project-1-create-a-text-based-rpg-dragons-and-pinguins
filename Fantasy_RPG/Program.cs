@@ -16,6 +16,11 @@ const ConsoleKey E = ConsoleKey.E;
 const ConsoleKey F = ConsoleKey.F;
 const ConsoleKey G = ConsoleKey.G;
 const ConsoleKey H = ConsoleKey.H;
+const ConsoleKey C = ConsoleKey.C;
+const ConsoleKey E = ConsoleKey.E;
+const ConsoleKey F = ConsoleKey.F;
+const ConsoleKey G = ConsoleKey.G;
+const ConsoleKey H = ConsoleKey.H;
 const ConsoleKey Esc = ConsoleKey.Escape;
 
 // Location varibles.
@@ -23,6 +28,10 @@ const int TOWER = 0;
 const int CITY = 1;
 const int CAVE = 2;
 const int COMBAT = 3;
+const int MAGIC_CORE = 4;
+const int MENTOR = 5;
+const int ENDING1 = 6;
+const int ENDING2 = 7;
 const int MAGIC_CORE = 4;
 const int MENTOR = 5;
 const int ENDING1 = 6;
@@ -154,10 +163,12 @@ while (!exit)
 
         default:
             WriteLine("HP has hit 0. You have died.");
+            WriteLine("HP has hit 0. You have died.");
             exit = true;
             break;
 
     }
+    // Opening scene.
     // Opening scene.
     void TowerMap()
     {
